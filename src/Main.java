@@ -2,12 +2,12 @@ import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-        int onTheAccount = 135;
+        int onTheAccount = 342;
         int bonusScale = 100;
-        int replenisment = 3000;
+        int replenisment = 3546;
         int bonus;
 
-        if (replenisment >= 1000) {
+        if (replenisment > 1000) {
             bonus = replenisment / bonusScale;
         } else {
             bonus = 0;
